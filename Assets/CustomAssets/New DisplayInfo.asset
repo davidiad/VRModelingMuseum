@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0837694317df419b969d0a0fcdffd8b, type: 3}
+  m_Name: New DisplayInfo
+  m_EditorClassIdentifier: 
+  displayNumber: 1
+  title: 
+  textInfo: 
+  bgColor: {r: 0, g: 0, b: 0, a: 0}
+  PlayBackSoundFile: {fileID: 8300000, guid: 580c1230165b44be4922e61f9d4e2613, type: 3}
