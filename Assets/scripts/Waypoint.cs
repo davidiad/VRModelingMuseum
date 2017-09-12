@@ -4,6 +4,7 @@ using System.Collections;
 public class Waypoint : MonoBehaviour
 {
 	private GameObject camContainer;
+	private AudioSourceManager audioManager;
 	private enum State
 	{
 		Idle,
@@ -65,6 +66,7 @@ public class Waypoint : MonoBehaviour
 
 	void Start() {
 		camContainer = Camera.main.transform.parent.gameObject;
+		audioManager = GameObject.FindGameObjectWithTag ("AudioManager").GetComponent<AudioSourceManager> ();
 	}
 
 
@@ -135,6 +137,9 @@ public class Waypoint : MonoBehaviour
 	{
 		_state = _state == State.Focused ? State.Clicked : _state;
 
+		if (audioManager) {
+			audioManager.StopAllAudio ();
+		}
 		_audio_source.Play();
 
 		camContainer.transform.position 	= gameObject.transform.position;
