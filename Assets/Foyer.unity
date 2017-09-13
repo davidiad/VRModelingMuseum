@@ -825,7 +825,7 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.9
+  m_Intensity: 1
   m_Range: 5.3
   m_SpotAngle: 73.87
   m_CookieSize: 10
@@ -849,7 +849,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_ShadowRadius: 0.48
+  m_ShadowRadius: 0.4
   m_ShadowAngle: 0
 --- !u!1 &328801820
 GameObject:
@@ -1178,11 +1178,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 81550cec8f9e24b8babba11d6667e2b8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.355
+      value: 1.321
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 81550cec8f9e24b8babba11d6667e2b8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.30899996
+      value: -0.303
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 81550cec8f9e24b8babba11d6667e2b8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1542,7 +1542,7 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.9
+  m_Intensity: 1
   m_Range: 5.3
   m_SpotAngle: 73.87
   m_CookieSize: 10
@@ -1566,7 +1566,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_ShadowRadius: 0.45
+  m_ShadowRadius: 0.4
   m_ShadowAngle: 0
 --- !u!1 &779891664
 GameObject:
@@ -2320,8 +2320,8 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 13.08
+  m_Intensity: 1.33
+  m_Range: 14.38
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -2341,10 +2341,10 @@ Light:
     m_Bits: 4294967295
   m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 2
+  m_BounceIntensity: 0.8
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_ShadowRadius: 8.54
+  m_ShadowRadius: 0.8
   m_ShadowAngle: 0
 --- !u!4 &910271326
 Transform:
@@ -2398,7 +2398,7 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.9
+  m_Intensity: 1
   m_Range: 5.3
   m_SpotAngle: 73.87
   m_CookieSize: 10
@@ -2422,7 +2422,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_ShadowRadius: 2.88
+  m_ShadowRadius: 0.4
   m_ShadowAngle: 0
 --- !u!1 &959374211
 GameObject:
@@ -2450,8 +2450,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 959374211}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.067, y: 0.642, z: -0.008}
-  m_LocalScale: {x: 1.9382756, y: 1.0907036, z: 1.0623606}
+  m_LocalPosition: {x: -0.041, y: 0.649, z: -0.007}
+  m_LocalScale: {x: 1.914035, y: 1.0618824, z: 1.0623606}
   m_Children: []
   m_Father: {fileID: 1023628234}
   m_RootOrder: 0
@@ -2669,7 +2669,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1207538302927880, guid: b620af48f68604b959e0a82d930e6eb0, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b620af48f68604b959e0a82d930e6eb0, type: 2}
@@ -2867,36 +2867,37 @@ Prefab:
     - target: {fileID: 114706627268258646, guid: b620af48f68604b959e0a82d930e6eb0,
         type: 2}
       propertyPath: m_text
-      value: <size=36><b>VR Sculpting</b></size>\nThis clip is from a promotional
-        video for Oculus Medium.  Sculpting in VR! Spiraloid Workshop uses Medium
-        to make some of the models for their VR comic books. This is the future of
-        modeling -- no more need to painstakingly optimize a low poly mesh -- Medium
-        exports a low poly mesh with textures.
+      value: <size=36><b>VR Modeling</b></size>\nGoogle Blocks is a VR modeling program
+        that provides simple primitve shapes to use as building blocks. But also,
+        notice in the video where he selects points on a shape and moves them, with
+        a tool that lets you select and move individual vertices of a mesh to make
+        your own, unique shapes. In this sense, Blocks's paradigm is similar to traditional
+        polygonal modeling software. Blocks is available on Vive and Rift.
       objectReference: {fileID: 0}
     - target: {fileID: 114706627268258646, guid: b620af48f68604b959e0a82d930e6eb0,
         type: 2}
       propertyPath: m_firstOverflowCharacterIndex
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 114706627268258646, guid: b620af48f68604b959e0a82d930e6eb0,
         type: 2}
       propertyPath: m_textInfo.characterCount
-      value: 309
+      value: 426
       objectReference: {fileID: 0}
     - target: {fileID: 114706627268258646, guid: b620af48f68604b959e0a82d930e6eb0,
         type: 2}
       propertyPath: m_textInfo.wordCount
-      value: 56
+      value: 74
       objectReference: {fileID: 0}
     - target: {fileID: 114706627268258646, guid: b620af48f68604b959e0a82d930e6eb0,
         type: 2}
       propertyPath: m_textInfo.spaceCount
-      value: 56
+      value: 73
       objectReference: {fileID: 0}
     - target: {fileID: 114706627268258646, guid: b620af48f68604b959e0a82d930e6eb0,
         type: 2}
       propertyPath: m_textInfo.lineCount
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1416980940146658, guid: b620af48f68604b959e0a82d930e6eb0, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -3493,7 +3494,7 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.9
+  m_Intensity: 1
   m_Range: 5.3
   m_SpotAngle: 73.87
   m_CookieSize: 10
@@ -3517,7 +3518,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_ShadowRadius: 0.7
+  m_ShadowRadius: 0.4
   m_ShadowAngle: 0
 --- !u!1 &1564290511
 GameObject:
@@ -3774,11 +3775,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 81550cec8f9e24b8babba11d6667e2b8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.4
+      value: 1.353
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 81550cec8f9e24b8babba11d6667e2b8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.30899996
+      value: -0.3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 81550cec8f9e24b8babba11d6667e2b8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3857,7 +3858,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1652958085}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.067, y: 0.642, z: -0.008}
+  m_LocalPosition: {x: -0.033, y: 0.642, z: -0.008}
   m_LocalScale: {x: 1.9382756, y: 1.0907036, z: 1.0623606}
   m_Children: []
   m_Father: {fileID: 474062829}
@@ -4066,11 +4067,15 @@ Prefab:
     - target: {fileID: 114706627268258646, guid: b620af48f68604b959e0a82d930e6eb0,
         type: 2}
       propertyPath: m_text
-      value: <size=36><b>VR Sculpting</b></size>\nThis clip is from a promotional
-        video for Oculus Medium.  Sculpting in VR! Spiraloid Workshop uses Medium
-        to make some of the models for their VR comic books. This is the future of
-        modeling -- no more need to painstakingly optimize a low poly mesh -- Medium
-        exports a low poly mesh with textures.
+      value: "<size=36><b>VR Sculpting</b></size>\\nThis clip is from a promotional
+        video for Oculus Medium. Sculpting in VR! This is a 3D modeler's dream. Medium
+        uses an airbrush-like tool to add mass to models. It's similar to sculpting
+        with clay. They also have a stamp tool, which helps to add a lot of detail
+        quickly. Spiraloid Workshop is one studio that uses Medium to make some of
+        the models for their VR comic books. This is the future of modeling \u2013
+        no more need to painstakingly optimize a low poly mesh \u2013 Medium exports
+        a low poly mesh with textures. Medium comes free when you buy the touch controllers
+        for Oculus Rift."
       objectReference: {fileID: 0}
     - target: {fileID: 114706627268258646, guid: b620af48f68604b959e0a82d930e6eb0,
         type: 2}
@@ -4080,22 +4085,22 @@ Prefab:
     - target: {fileID: 114706627268258646, guid: b620af48f68604b959e0a82d930e6eb0,
         type: 2}
       propertyPath: m_textInfo.characterCount
-      value: 309
+      value: 592
       objectReference: {fileID: 0}
     - target: {fileID: 114706627268258646, guid: b620af48f68604b959e0a82d930e6eb0,
         type: 2}
       propertyPath: m_textInfo.wordCount
-      value: 56
+      value: 107
       objectReference: {fileID: 0}
     - target: {fileID: 114706627268258646, guid: b620af48f68604b959e0a82d930e6eb0,
         type: 2}
       propertyPath: m_textInfo.spaceCount
-      value: 56
+      value: 108
       objectReference: {fileID: 0}
     - target: {fileID: 114706627268258646, guid: b620af48f68604b959e0a82d930e6eb0,
         type: 2}
       propertyPath: m_textInfo.lineCount
-      value: 7
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1207538302927880, guid: b620af48f68604b959e0a82d930e6eb0, type: 2}
       propertyPath: m_StaticEditorFlags
@@ -4672,7 +4677,7 @@ MonoBehaviour:
   scale_idle_max: 0
   scale_focus_min: 0
   scale_focus_max: 0
-  clip_click: {fileID: 8300000, guid: 1092bf4d7d12aa441ad10818fcbab240, type: 3}
+  clip_click: {fileID: 8300000, guid: 72f08ea6aff554581aa1141c5f1458cb, type: 3}
   threshold: 0.125
 --- !u!1 &2016872668
 GameObject:
@@ -4990,7 +4995,7 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.9
+  m_Intensity: 1
   m_Range: 5.3
   m_SpotAngle: 73.87
   m_CookieSize: 10
@@ -5014,5 +5019,5 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_ShadowRadius: 2.52
+  m_ShadowRadius: 0.4
   m_ShadowAngle: 0

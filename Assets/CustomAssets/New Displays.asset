@@ -42,11 +42,23 @@ MonoBehaviour:
     PlayBackSoundFile: {fileID: 8300000, guid: a5063fa4fceb745f1912808cb47ad70f, type: 3}
   - displayNumber: 4
     title: VR Sculpting
-    textInfo: 
+    textInfo: "This clip is from a promotional video for Oculus Medium. Sculpting
+      in VR! This is a 3D modeler's dream. Medium uses an airbrush-like tool to add
+      mass to models. It's similar to sculpting with clay. They also have a stamp
+      tool, which helps to add a lot of detail quickly. Spiraloid Workshop is one
+      studio that uses Medium to make some of the models for their VR comic books.
+      This is the future of modeling \u2013 no more need to painstakingly optimize
+      a low poly mesh \u2013 Medium exports a low poly mesh with textures. Medium
+      comes free when you buy the touch controllers for Oculus Rift."
     bgColor: {r: 0, g: 0, b: 0, a: 0}
-    PlayBackSoundFile: {fileID: 0}
+    PlayBackSoundFile: {fileID: 8300000, guid: 72f08ea6aff554581aa1141c5f1458cb, type: 3}
   - displayNumber: 5
-    title: 
-    textInfo: 
-    bgColor: {r: 0, g: 0, b: 0, a: 0}
+    title: VR Modeling
+    textInfo: Google Blocks is a VR modeling program that provides simple primitve
+      shapes to use as building blocks. But also, notice in the video where he selects
+      points on a shape and moves them, with a tool that lets you select and move
+      individual vertices of a mesh to make your own, unique shapes. In this sense,
+      Blocks's paradigm is similar to traditional polygonal modeling software. Blocks
+      is available on Vive and Rift.
+    bgColor: {r: 1, g: 0.5586207, b: 0, a: 0}
     PlayBackSoundFile: {fileID: 0}

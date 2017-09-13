@@ -3,8 +3,10 @@
 		_Color ("Color", Color) = (1,.1,.3,1)
 		_MainTex ("Albedo (RGB)", 2D) = "white" {}
 		_Tint("Tint", Color) = (1,1,1,1)
+		_NormalMap("Normal Map", 2D) = "black"{}
 		_Glossiness ("Smoothness", Range(0,1)) = 0.5
 		_Metallic ("Metallic", Range(0,1)) = 0.0
+		_BumpScale("Bump Scale", Range(0,5)) = 1
 	}
 
 	CustomEditor "MyLightingShaderGUI"
