@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a81909e534944f26880cc38744538de, type: 3}
+  m_Name: New Displays
+  m_EditorClassIdentifier: 
+  DisplayItems:
+  - displayNumber: 1
+    title: Low Poly Modeling
+    textInfo: rtyuio
+    bgColor: {r: 0.57364124, g: 0.72794116, b: 0.13916522, a: 0}
+    PlayBackSoundFile: {fileID: 8300000, guid: 1f5100280e1a947f0ac4639426f2559b, type: 3}
+  - displayNumber: 2
+    title: Shader Techniques
+    textInfo: This island scene has no lights. The textures are created through a
+      variety of shaders and image effects. For instance, in the shaders, gradients
+      are created based on the depth of each pixel in the scene, or their orientation
+      from top to bottom, left to right, or up and down. A camera depth texture is
+      passed to the ocean shader, creating the illusion that you can see partially
+      through the water, without any physically based transparency rendering at all.
+      This scene is one of the demos that comes with Marvelous Techniques, available
+      in the Asset Store. While these techniques are used on all platforms (notably,
+      in the game Monument Valley), VR especially benefits from the reduction of CPU
+      load by eliminating real-time lights.
+    bgColor: {r: 0.9632353, g: 0, b: 0, a: 0}
+    PlayBackSoundFile: {fileID: 8300000, guid: fd804fe9e5e354cb5811a4ec20047f8d, type: 3}
+  - displayNumber: 3
+    title: VR Painting
+    textInfo: The promotional video for Google Tiltbrush gives you a taste of how
+      exciting it is to paint in a truly 3 dimensional space on high end headsets
+      like the HTC Vive and Oculus Rift. Studios are also starting to use Tiltbrush
+      to make quick prototypes for VR apps. The second part of this video shows part
+      of a prototype, painted in Tiltbrush, for Project Super by Dream On VR.
+    bgColor: {r: 0.13092843, g: 0.110131934, b: 0.71323526, a: 0}
+    PlayBackSoundFile: {fileID: 8300000, guid: a5063fa4fceb745f1912808cb47ad70f, type: 3}
+  - displayNumber: 4
+    title: VR Sculpting
+    textInfo: 
+    bgColor: {r: 0, g: 0, b: 0, a: 0}
+    PlayBackSoundFile: {fileID: 0}
+  - displayNumber: 5
+    title: 
+    textInfo: 
+    bgColor: {r: 0, g: 0, b: 0, a: 0}
+    PlayBackSoundFile: {fileID: 0}
