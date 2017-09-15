@@ -1079,7 +1079,7 @@ MonoBehaviour:
   scale_idle_max: 0
   scale_focus_min: 0
   scale_focus_max: 0
-  clip_click: {fileID: 8300000, guid: 1092bf4d7d12aa441ad10818fcbab240, type: 3}
+  clip_click: {fileID: 8300000, guid: c4c81bb8be2434c749e7ee3c7791042a, type: 3}
   threshold: 0.125
 --- !u!1001 &331030634
 Prefab:
@@ -2868,11 +2868,12 @@ Prefab:
         type: 2}
       propertyPath: m_text
       value: <size=36><b>VR Modeling</b></size>\nGoogle Blocks is a VR modeling program
-        that provides simple primitve shapes to use as building blocks. But also,
-        notice in the video where he selects points on a shape and moves them, with
-        a tool that lets you select and move individual vertices of a mesh to make
-        your own, unique shapes. In this sense, Blocks's paradigm is similar to traditional
-        polygonal modeling software. Blocks is available on Vive and Rift.
+        that provides simple shapes to use as building blocks. But also, notice in
+        the video where he selects points on a shape and moves them with a tool that
+        lets you select and move individual vertices of a mesh. So in addition to
+        primitives, you can make your own, unique shapes. In this sense, Blocks's
+        paradigm is similar to traditional polygonal modeling software. Blocks is
+        available on Vive and Rift.
       objectReference: {fileID: 0}
     - target: {fileID: 114706627268258646, guid: b620af48f68604b959e0a82d930e6eb0,
         type: 2}
@@ -2882,22 +2883,22 @@ Prefab:
     - target: {fileID: 114706627268258646, guid: b620af48f68604b959e0a82d930e6eb0,
         type: 2}
       propertyPath: m_textInfo.characterCount
-      value: 426
+      value: 452
       objectReference: {fileID: 0}
     - target: {fileID: 114706627268258646, guid: b620af48f68604b959e0a82d930e6eb0,
         type: 2}
       propertyPath: m_textInfo.wordCount
-      value: 74
+      value: 79
       objectReference: {fileID: 0}
     - target: {fileID: 114706627268258646, guid: b620af48f68604b959e0a82d930e6eb0,
         type: 2}
       propertyPath: m_textInfo.spaceCount
-      value: 73
+      value: 78
       objectReference: {fileID: 0}
     - target: {fileID: 114706627268258646, guid: b620af48f68604b959e0a82d930e6eb0,
         type: 2}
       propertyPath: m_textInfo.lineCount
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1416980940146658, guid: b620af48f68604b959e0a82d930e6eb0, type: 2}
       propertyPath: m_StaticEditorFlags
