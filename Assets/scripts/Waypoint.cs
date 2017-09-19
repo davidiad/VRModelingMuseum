@@ -1,8 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.Video;
 
 public class Waypoint : MonoBehaviour
 {
+	public GameObject videoContainer;
+	private VideoPlayer videoPlayer;
 	private GameObject camContainer;
 	private AudioSourceManager audioManager;
 	private enum State
@@ -67,6 +70,9 @@ public class Waypoint : MonoBehaviour
 	void Start() {
 		camContainer = Camera.main.transform.parent.gameObject;
 		audioManager = GameObject.FindGameObjectWithTag ("AudioManager").GetComponent<AudioSourceManager> ();
+		if (videoContainer) {
+			videoPlayer = videoContainer.GetComponent<VideoPlayer> ();
+		}
 	}
 
 
@@ -141,7 +147,9 @@ public class Waypoint : MonoBehaviour
 			audioManager.StopAllAudio ();
 		}
 		_audio_source.Play();
-
+		if (videoPlayer) {
+			videoPlayer.Play ();
+		}
 		camContainer.transform.position 	= gameObject.transform.position;
 	}
 
@@ -150,7 +158,9 @@ public class Waypoint : MonoBehaviour
 			_state = _state == State.Focused ? State.Clicked : _state;
 
 			_audio_source.Play ();
-
+			if (videoPlayer) {
+				videoPlayer.Play ();
+			}
 			camContainer.transform.position = gameObject.transform.position;
 		}
 	}

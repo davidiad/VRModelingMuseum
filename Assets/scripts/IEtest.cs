@@ -7,6 +7,7 @@ public class IEtest : MonoBehaviour {
 	public float intensity;
 	private Material material;
 
+	/*
 	// Creates a private material used to the effect
 	void Awake ()
 	{
@@ -25,4 +26,5 @@ public class IEtest : MonoBehaviour {
 //		material.SetFloat("_bwBlend", intensity);
 		Graphics.Blit (source, destination, material);
 	}
+	*/
 }

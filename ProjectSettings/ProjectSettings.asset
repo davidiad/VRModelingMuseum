@@ -140,7 +140,7 @@ PlayerSettings:
     Android: com.Company.ProductName
     Standalone: unity.DefaultCompany.VRModelingMuseum
     Tizen: com.Company.ProductName
-    iOS: com.Company.ProductName
+    iOS: com.davidiad.vr-modeling-museum
     tvOS: com.Company.ProductName
   buildNumber:
     iOS: 0
